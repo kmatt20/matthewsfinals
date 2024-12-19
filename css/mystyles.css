@@ -1,0 +1,125 @@
+/* Background color for the body with the class 'scratch' */
+.scratch {
+    background-color: lavenderblush;
+}
+/* Font Color and Style */
+.font{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: cadetblue;
+}
+/* Styles for the image container */
+.image {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Styles for individual images */
+.image img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Makes sure the images fill their boxes */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+}
+
+/* Styling for the page heading */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling for paragraphs */
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    padding: 10px;
+}
+/* Tableau Styling */
+
+/* Styling for the snake game container
+.snake-game {
+    text-align: center;
+    margin: 75px;
+}
+
+/* Styling for the iframe in the snake game */
+/* .snake-game iframe {
+    width: 800px;
+    height: 600px;
+    border: none;
+} */ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input {
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:disabled {
+    background-color: #cccccc;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#attempts {
+    font-size: 14px;
+    color: #888;
+}
+
+#resetButton {
+    background-color: #007bff;
+}
+
+#resetButton:hover {
+    background-color: #0056b3;
+}
